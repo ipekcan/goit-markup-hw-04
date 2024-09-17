@@ -171,9 +171,17 @@ nav li.menu-contacts {
 .menu-nav li:hover a {
   color: #404bbf;
 }
-.menu-nav li a:active {
+.menu-nav li:active a {
   color: #404bbf;
+  
 }
+.div-header svg {
+  position: absolute;
+  top: 68px;
+  left: 540px;
+  
+}
+
 .link-studio {
   text-decoration: none;
   color: #2e2f42;
@@ -201,12 +209,19 @@ nav li.menu-contacts {
 .hero-img-section {
   width: 1440px;
   height: 600px;
-  background-color: #2e2f42;
-
+  background-color: rgba(46, 47, 66, 0.7);
+  
+  background-image: linear-gradient(
+    to bottom,
+    rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)
+    ), url(/images/people-office.jpg);
+  
   box-shadow: 0px 4px 4px 0px #00000026;
   display: flex;
   flex-direction: column;
   align-items: center;
+  
 }
 .hero-img-section h1 {
   color: #ffffff;
@@ -239,7 +254,7 @@ nav li.menu-contacts {
   margin-top: -125px;
   margin-left: 495px;
 }
-.btn-order-service:hover {
+button.btn-order-service:hover {
   background-color: #404bbf;
 }
 .section {
@@ -268,6 +283,28 @@ nav li.menu-contacts {
 }
 .sec1-col {
   display: block;
+  width: 264px;
+  height: 224px;
+}
+.sec1-col .icons {
+  width: 264px;
+  height: 112px;
+  display:flex;
+  flex-direction: column;
+  
+
+  background-color: rgba(244, 244, 253, 1);
+
+  border: 1px solid rgba(142, 143, 153, 1);
+  border-radius: 6px;
+
+}
+.icons .icon {
+  position: relative;
+  top:20px;
+  left: 100px;
+  right: 100px;
+  
 }
 .sec1-title {
   color: #2e2f42;
