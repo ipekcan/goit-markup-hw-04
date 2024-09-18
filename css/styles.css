@@ -336,7 +336,7 @@ button.btn-order-service:hover {
 }
 
 .section ul > li .div-team-card {
-  height: 387px;
+  height: 428px;
   display: block;
   justify-content: center;
   flex-wrap: nowrap;
@@ -377,6 +377,22 @@ h6.job {
   line-height: 24px;
   letter-spacing: 0.02em;
   text-align: center;
+}
+.card-content .social-media {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 16px 32px;
+}
+.social-media .social-icon{
+  position: relative;
+  width: 16px;
+  height: 16px;
+}
+.social-media .social-icon:hover {
+  fill: #31D0AA;
+
+  ;
 }
 
 .our-portfolio {
