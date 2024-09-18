@@ -560,6 +560,7 @@ Header background, team card background
 }
 .footer {
   /* Footer */
+  
 
   width: 1440px;
   height: 312px;
@@ -658,6 +659,28 @@ Header background, team card background
   /* CLOUD */
   color: #f4f4fd;
 }
+.footer-social-media {
+  position: relative;
+  left:240px;
+  top: -20px;
+  color:#ffffff;
+}
+.footer-social-media .social-icon-footer{
+  position: relative;
+  left:270px;
+  margin-top:8px;
+  margin-inline: 12px;
+
+  width: 20px;
+  height: 20px;
+  fill:#ffffff;
+}
+.footer-social-media .social-icon-footer:hover {
+  fill: #31D0AA;
+
+  ;
+}
+
 .roboto-thin {
   font-family: "Roboto", sans-serif;
   font-weight: 100;
