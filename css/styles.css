@@ -204,6 +204,16 @@ nav li.menu-contacts {
   flex-grow: 1;
   font-weight: 400;
 }
+.active-menu-hover-div {
+  display: inline-block;
+}
+.active-menu-hover {
+  
+  
+  width: 50px;
+  
+  
+}
 .hero-img-section {
   width: 1440px;
   height: 600px;
@@ -292,10 +302,7 @@ button.btn-order-service:hover {
   border-radius: 6px;
 }
 .icons .icon {
-  position: relative;
-  top: 20px;
-  left: 100px;
-  right: 100px;
+  padding: 20px;
 }
 .sec1-title {
   color: #2e2f42;
@@ -373,18 +380,18 @@ h6.job {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  
-  
 }
- svg.social-icon {
+svg.social-icon {
   width: 24px;
   height: 24px;
   position: relative;
   margin-left: 10px;
   margin-top: 10px;
 }
-.social-media .social-icon:hover {
-  fill: #31d0aa;
+.social-media li .social-icon:hover {
+  
+  fill: #31D0AA;
+
 }
 
 .our-portfolio {
