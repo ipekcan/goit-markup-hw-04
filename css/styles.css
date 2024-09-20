@@ -1,3 +1,8 @@
+:root{
+  --color2:#4d5ae5;
+  --color3: #f4f4fd;
+  --color5: #31d0aa;
+}
 body {
   font-family: "Roboto";
   font-weight: 500;
@@ -208,11 +213,7 @@ nav li.menu-contacts {
   display: inline-block;
 }
 .active-menu-hover {
-  
-  
   width: 50px;
-  
-  
 }
 .hero-img-section {
   width: 1440px;
@@ -380,18 +381,18 @@ h6.job {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  
 }
 svg.social-icon {
-  width: 24px;
-  height: 24px;
+  width: 40px;
+  height: 40px;
   position: relative;
-  margin-left: 10px;
-  margin-top: 10px;
-}
-.social-media li .social-icon:hover {
   
-  fill: #31D0AA;
-
+  margin-top: 10px;
+  fill: var(--color2);
+}
+.social-media li:hover a svg {
+  fill: var(--color5);
 }
 
 .our-portfolio {
@@ -570,6 +571,7 @@ Header background, team card background
 }
 .container-footer {
   width: 1154px;
+
 }
 .div-footer {
   /* Text */
@@ -657,26 +659,57 @@ Header background, team card background
   /* CLOUD */
   color: #f4f4fd;
 }
-.footer-social-media {
+footer .footer-social-media {
   position: relative;
-  left: 240px;
-  top: -20px;
-  color: #ffffff;
+  left: 450px;
+  top: -120px;
+  
+  width: 1000px;
 }
-.footer-social-media .social-icon-footer {
+.social-media-text {
+  display: block;
+}
+.social-media-text h5 {
+  /* Social media */
+color:#ffffff;
+
+/* Body Medium */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+letter-spacing: 0.02em;
+}
+#footer-icons {
+  
+  width:500px;
+  height: 150px;
+  
+}
+#footer-icons .icons {
+  display: flexbox;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   position: relative;
-  left: 270px;
-  margin-top: 8px;
-  margin-inline: 12px;
-
-  width: 20px;
-  height: 20px;
-  fill: #ffffff;
+  left: -50px;
 }
-.footer-social-media .social-icon-footer:hover {
-  fill: #31d0aa;
+#footer-icons li{
+  float: left;
+  margin-right: 20px;
+  
 }
-
+li a .svg-footer {
+  width: 40px;
+  height: 40px;
+  max-width: 40px;
+  fill: var(--color2);
+}
+li a:hover .svg-footer {
+  fill: var(--color5);
+}
 .roboto-thin {
   font-family: "Roboto", sans-serif;
   font-weight: 100;
