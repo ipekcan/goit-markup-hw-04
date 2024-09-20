@@ -390,6 +390,8 @@ svg.social-icon {
   
   margin-top: 10px;
   fill: var(--color2);
+  transition-property: fill;
+  transition-duration: 250ms, cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-media li:hover a svg {
   fill: var(--color5);
@@ -706,6 +708,9 @@ li a .svg-footer {
   height: 40px;
   max-width: 40px;
   fill: var(--color2);
+  transition-property: fill;
+  transition-duration: 250ms, cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 li a:hover .svg-footer {
   fill: var(--color5);
